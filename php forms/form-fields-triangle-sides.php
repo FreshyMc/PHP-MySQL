@@ -11,14 +11,17 @@
    <input type="submit" name="submit" value="Send"/>
  </form>
  <?php
+ $a = $_POST["side1"]
+ $b = $_POST["side2"]
+ $c = $_POST["side3"]
  if(!empty($_POST['submit']))
  {
-if($_POST["side1"]+$_POST["side2"]>$_POST["side3"]{
-&&$_POST["side1"]+$_POST["side3"]>$_POST["side2"]
-&&$_POST["side2"]+$_POST["side3"]>$_POST["side1"])
-	echo "Yes";
+if($a+$b>$c
+&&$a+$c>$b
+&&$b+$c>$a)
+	echo "Possible";
 }else {
-echo "No";}
+echo "Impossible";}
 }
  ?>
 </body>
