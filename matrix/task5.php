@@ -11,7 +11,7 @@ $row=4;
 		}
 		for($j = 0; $j < $col; $j++){
 			$arr[$i][$j] = $num;
-			//$num=$num*10;
+			
 		}
 	}
 	echo "<table border=1>";
