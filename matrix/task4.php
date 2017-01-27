@@ -2,8 +2,6 @@
 
 <?php
 
-// $m=7;
-// $n=6;
 //function my_func($m, $n){
 $m = 7;
 $n = 6;
