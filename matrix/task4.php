@@ -14,12 +14,12 @@ $c=10;
 for ($i=0; $i<$m; $i++) {
 	for ($j=0; $j<$n; $j++) {
 	$arr[$i][$j] = $num;
-	$num=$c+$num;
+	//$num=$c+$num;
 
 	}
 
-	$c=$c*10+1; 
-	$num=$c;
+	// $c=$c*10+1; 
+	// $num=$c;
 }
 echo "<table border='1'>";
 for ($q=0; $q<$m; $q++){

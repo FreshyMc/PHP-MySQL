@@ -1,5 +1,5 @@
 <?php 
-//function print_array($col, $row){
+function print_array($col, $row){
 $col=5;
 $row=4;
 	for($i = 0; $i < $row; $i++){
@@ -24,5 +24,5 @@ $row=4;
 		echo "</tr>";
 	}
 	echo "</table>";
-// }
-// print_array(5, 4);
+ }
+ print_array(5, 4);
