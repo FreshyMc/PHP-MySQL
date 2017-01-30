@@ -11,7 +11,7 @@ $row=4;
 		}
 		for($j = 0; $j < $col; $j++){
 			$arr[$i][$j] = $num;
-			//$num=$num*10;
+			
 		}
 	}
 	echo "<table border=1>";
@@ -24,5 +24,10 @@ $row=4;
 		echo "</tr>";
 	}
 	echo "</table>";
+<<<<<<< HEAD
  }
  print_array(5, 4);
+=======
+// }
+// print_array(5, 4);
+>>>>>>> origin/master

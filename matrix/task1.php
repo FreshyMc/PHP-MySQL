@@ -9,7 +9,7 @@ for ($i=0; $i < $m; $i++) {
 	for ($j=0; $j <$n ; $j++) { 
 		$arr[$i][$j] = $num;  
 		 $num+=$num2;
-		// $num2=$num2*10;
+		
 	}
 }
 echo "<table border='1px'>";
