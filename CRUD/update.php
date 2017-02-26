@@ -33,8 +33,7 @@ if(isset($_POST['update']))
 		header("Location: read.php");
 	}
 }
-?>
-<?php
+
 //getting id from url
 $id = $_GET['id'];
 
